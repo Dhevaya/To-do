@@ -1,3 +1,46 @@
+/* Responsive Design: Mobile-Friendly */
+@media (max-width: 768px) {
+    .todo-container {
+        max-width: 98vw;
+        margin: 24px auto;
+        padding: 12px 6px 18px 6px;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    .input-group {
+        flex-direction: column;
+        gap: 6px;
+        margin-bottom: 12px;
+    }
+    #task-input {
+        font-size: 0.95rem;
+        padding: 7px 8px;
+    }
+    #add-btn {
+        font-size: 0.95rem;
+        padding: 7px 12px;
+    }
+    .task-item {
+        gap: 6px;
+        padding: 6px 0;
+    }
+    .task-checkbox {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+    .task-text {
+        font-size: 0.95rem;
+    }
+    .delete-btn {
+        font-size: 1rem;
+        margin-left: 6px;
+    }
+}
 body {
     font-family: Arial, sans-serif;
     background: #f7f7f7;
